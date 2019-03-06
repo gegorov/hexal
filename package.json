@@ -1,0 +1,27 @@
+{
+  "name": "hexal",
+  "version": "1.0.0",
+  "description": "rss markup task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gegorov/hexal.git"
+  },
+  "keywords": [
+    "rss",
+    "markup"
+  ],
+  "author": "gegorov",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/gegorov/hexal/issues"
+  },
+  "homepage": "https://github.com/gegorov/hexal#readme",
+  "devDependencies": {
+    "stylelint": "^9.10.1",
+    "stylelint-config-htmlacademy": "^0.1.1"
+  }
+}
