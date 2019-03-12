@@ -25,22 +25,22 @@
   font-style: normal;
   font-weight: 900;
 }
-
+/*
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
 
-@-moz-keyframes spin { 
+@-moz-keyframes spin {
   100% {
     -moz-transform: rotate(360deg);
   }
-}
+} */
 
 @keyframes spin {
   100% {
-    -webkit-transform: rotate(360deg);
+    /* -webkit-transform: rotate(360deg); */
     transform: rotate(360deg);
   }
 }
@@ -177,7 +177,7 @@ h1 {
 .hex__row__outer::before {
   position: relative;
   content: "";
-  border: 1px solid red;
+  border: 1px solid #e4e9eb;
   height: 104px;
   left: -11px;
   top: 64px;
@@ -186,7 +186,7 @@ h1 {
 .hex__row__outer::after {
   position: relative;
   content: "";
-  border: 1px solid blue;
+  border: 1px solid #e4e9eb;
   height: 104px;
   left: 11px;
   top: 64px;
