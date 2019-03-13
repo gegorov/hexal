@@ -68,7 +68,8 @@ li {
 
 header {
   background-color: #323232;
-
+  display: flex;
+  justify-content: center;
   height: 63px;
   position: relative;
 }
@@ -87,7 +88,14 @@ header::after {
 }
 
 h1 {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
@@ -165,8 +173,7 @@ h1 {
 
 
 .hexagon__container {
-  margin: 65px 0 10px;
-  border-bottom: 1px solid #e4e9eb;
+  margin-top: 65px;
 }
 
 .hex__row__outer {
@@ -229,3 +236,27 @@ h1 {
   transform: translateX(-10%);
 }
 
+.slider__wrapper {
+  margin-top: 56px;
+  padding: 0 30px;
+}
+
+.slider__controls {
+  display: flex;
+
+  padding-bottom: 10px;
+  border-bottom: 1px #e4e9eb solid;
+  list-style-type: none;
+}
+
+.slider__button {
+  display: flex;
+  width: 6px;
+  height: 6px;
+  margin-right: 3px;
+  background: #ddd2c5;
+}
+
+.slider__button:nth-child(3) {
+  background: #8b8784;
+}
