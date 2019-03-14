@@ -49,6 +49,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -153,7 +155,7 @@ h1 {
   background: gray;
 }
 
-.portfolio {
+.portfolio__section {
 
   margin: 0 auto;
   background: #ffffff;
