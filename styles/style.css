@@ -337,7 +337,141 @@ h1 {
   background: #7fd0c5;
 }
 
-a .fab {
+a .fab,
+a .fas {
   color: #04ac95;
   font-size: 12px;
+}
+
+.feedback__container {
+  padding-top: 13px;
+  background: #323232;
+  color: #bebebe;
+}
+
+.feedback__container h2 {
+  margin-top: 46px;
+  color: #e0e0e0;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.feedback__inner__wrapper {
+  margin: 0 30px;
+  padding: 0 90px 47px;
+  border-top: 1px #2b2b2b solid;
+  border-bottom: 1px #2b2b2b solid;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 11px;
+  font-family: "Lato", sans-serif;
+}
+
+.feedback__just__another__wrapper {
+  display: flex;
+}
+
+.feedback__form fieldset {
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 580px;
+}
+
+.feedback__form__legend {
+  font-size: 18px;
+}
+
+.feedback__form__field {
+  display: block;
+  height: 38px;
+  width: 100%;
+  background-color: #454545;
+  color: white;
+  border: none;
+  margin: 16px auto 0;
+  padding-left: 15px;
+}
+
+.feedback__form__textarea {
+  height: 150px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.feedback__form__legend + input {
+  margin-top: 20px;
+}
+
+.feedback__form__field::placeholder {
+  color: #bebebe;
+  vertical-align: center;
+}
+
+.feedback__button__send {
+  margin-top: 16px;
+  width: 90px;
+  height: 37px;
+  background-color: #2eb398;
+  border: none;
+  text-transform: uppercase;
+  align-self: flex-end;
+  color: #d7fcf5;
+}
+
+.feedback__contacts {
+  margin-top: 35px;
+  padding-left: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  color: #bebebe;
+}
+
+.feedback__contacts p {
+
+  text-align: justify;
+  line-height: 21px;
+  hyphens: auto;
+  word-spacing: normal;
+}
+
+.feedback__contacts strong {
+  color: #e0e0e0;
+  word-spacing: inherit;
+  font-weight: 900;
+}
+
+.feedback__contacts__list {
+  display: flex;
+  list-style: none;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.contact__list__item {
+  margin-top: 9px;
+  font-size: 12px;
+}
+
+.contact__list__item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.contact__list__item a:hover {
+  color: #04ac95;
+}
+
+.contact__list__item > a i {
+  /* display: inline-block; */
+  margin-right: 13px;
 }
